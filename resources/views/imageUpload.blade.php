@@ -17,7 +17,7 @@
             <button type="button" class="close" data-dismiss="alert">×</button>
                 <strong>{{ $message }}</strong>
         </div>
-        <img src="images/{{ Session::get('image') }}">
+        <img src="images/{{ Session::get('image') }}" height="200px" width="250px">
         @endif
         <img src="{{ asset('/images/1688236565.png') }}" alt="" title="">
         @if (count($errors) > 0)
@@ -54,4 +54,4 @@
 </div>
 </body>
   
-</html>
+</html>  
